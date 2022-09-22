@@ -13,7 +13,7 @@ const displayComment = (comments) => {
         div.classList.add('comment');
 
         div.innerHTML = `
-            <p>Id: ${comment.id}</p>
+            <p>Post Id: ${comment.postId}</p>
             <p>Comment: ${comment.body}</p>
             <button onclick="loadData(${comment.id})">Details</button>
         `;
@@ -39,7 +39,7 @@ const displayData = details => {
 
     div.innerHTML = `
         <h1>Details</h1>
-        <p>Post Id: ${details.postId}</p>
+        <p>Id: ${details.id}</p>
         <p>Name: ${details.name}</p>
         <p>Email: ${details.email}</p>
     `;
