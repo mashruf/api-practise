@@ -1,0 +1,19 @@
+#show-comment {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.comment {
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.detail {
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
